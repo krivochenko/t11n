@@ -1,5 +1,6 @@
 import { Address, beginCell, Cell, Contract, ContractProvider, Sender, SendMode, toNano } from 'ton-core';
-import { generateItemContent, ItemContent } from '../utils/helpers';
+import { generateItemContent } from '../utils/helpers';
+import { ItemContent } from '../utils/types';
 
 export class Authority implements Contract {
   constructor(readonly address: Address, readonly init?: { code: Cell; data: Cell }) {
