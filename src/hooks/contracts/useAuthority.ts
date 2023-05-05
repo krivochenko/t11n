@@ -11,7 +11,7 @@ export const useAuthority = () => {
   const { network } = useTonConnect();
 
   return useMemo(() => {
-    if (!client) {
+    if (!client || !network) {
       return;
     }
     const address = network === CHAIN.MAINNET ? AUTHORITY_ADDRESS_MAINNET : AUTHORITY_ADDRESS_TESTNET;

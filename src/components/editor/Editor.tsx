@@ -2,8 +2,9 @@ import React from 'react';
 import { ColorSchemaEditor } from './color-schema-editor/ColorSchemaEditor';
 import { Map } from './map/Map';
 import { Address } from 'ton-core';
-import { Button, Col, Row, Spin } from 'antd';
+import { Button, Col, Empty, Row, Spin } from 'antd';
 import { useItemData } from '../../hooks/useItemData';
+import { useTonWallet } from '@tonconnect/ui-react';
 
 export const Editor = (props: { ownerAddress: Address }) => {
   const {
@@ -17,14 +18,16 @@ export const Editor = (props: { ownerAddress: Address }) => {
     save,
   } = useItemData(props.ownerAddress);
 
-  if (loadingMessage) {
+  const wallet = useTonWallet();
+
+  if (!wallet) {
+    return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={'Connect your wallet first'} />
+  }
+
+  if (loadingMessage || !countriesList || !colorSchema || !flags || readonly === undefined) {
     return <Spin tip={loadingMessage} size="large">
       <div className="content"/>
     </Spin>;
-  }
-
-  if (!countriesList || !colorSchema || !flags || readonly === undefined) {
-    return null;
   }
 
   return <Row gutter={[0, 10]}>
@@ -39,7 +42,7 @@ export const Editor = (props: { ownerAddress: Address }) => {
       <Map readonly={readonly} flags={flags} countriesList={countriesList} colorSchema={colorSchema} onChangeFlags={setFlags}/>
     </Col>
     <Col span={24}>
-      <Button type={'primary'} block onClick={save}>Save</Button>
+      {readonly || !wallet ? null : <Button type={'primary'} block onClick={save}>Save</Button>}
     </Col>
   </Row>;
 };
