@@ -2,11 +2,11 @@ import './App.scss';
 import '@twa-dev/sdk';
 import { App as AntdApp, Layout } from 'antd';
 import { Header } from './components/header/Header';
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
+import { createHashRouter, Outlet, RouterProvider } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { MapPage } from './pages/MapPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <Layout className="content">
       <Header/>
