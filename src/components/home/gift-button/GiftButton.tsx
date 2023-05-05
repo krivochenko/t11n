@@ -33,6 +33,6 @@ export const GiftButton = () => {
         onChange={onChangeAddress}
       />
     </Modal>
-    <Button block type={'primary'} onClick={openModal}>Generate NFT as a gift for friend</Button>
+    <Button block type={'primary'} onClick={openModal}>Mint NFT as a gift for friend</Button>
   </>
 }

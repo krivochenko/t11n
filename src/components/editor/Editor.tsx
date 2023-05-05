@@ -16,8 +16,8 @@ export const Editor = (props: { ownerAddress: Address }) => {
     setColorSchema,
     setFlags,
     save,
+    isDirty,
   } = useItemData(props.ownerAddress);
-
   const wallet = useTonWallet();
 
   if (!wallet) {
@@ -42,7 +42,7 @@ export const Editor = (props: { ownerAddress: Address }) => {
       <Map readonly={readonly} flags={flags} countriesList={countriesList} colorSchema={colorSchema} onChangeFlags={setFlags}/>
     </Col>
     <Col span={24}>
-      {readonly || !wallet ? null : <Button type={'primary'} block onClick={save}>Save</Button>}
+      {readonly || !wallet ? null : <Button type={'primary'} disabled={!isDirty} block onClick={save}>Save</Button>}
     </Col>
   </Row>;
 };

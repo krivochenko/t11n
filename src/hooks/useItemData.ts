@@ -13,7 +13,7 @@ import { useItemGetNftData } from './contracts/useItemGetNftData';
 import { useTonClient } from './useTonClient';
 import { useTonConnect } from './useTonConnect';
 import { DEFAULT_COLOR_SCHEMA } from '../utils/constants';
-import { ColorSchema, CountriesList } from '../utils/types';
+import { ColorSchema, CountriesList, ItemContent } from '../utils/types';
 
 export const useItemData = (ownerAddress: Address): {
   countriesList: CountriesList | undefined,
@@ -23,7 +23,8 @@ export const useItemData = (ownerAddress: Address): {
   loadingMessage: string | undefined,
   setColorSchema: (colorSchema: ColorSchema) => void,
   setFlags: (flags: boolean[]) => void,
-  save: () => void,
+  isDirty: boolean,
+  save: () => Promise<void>,
 } => {
   const client = useTonClient();
   const wallet = useTonWallet();
@@ -45,10 +46,14 @@ export const useItemData = (ownerAddress: Address): {
     return currentAddress && currentAddress.equals(ownerAddress);
   }, [wallet, ownerAddress]);
 
+  const [initialContent, setInitialContent] = useState<ItemContent>();
+
   const [colorSchema, setColorSchema] = useState<ColorSchema>();
   const [flags, setFlags] = useState<boolean[]>();
 
   const { data: itemNftData, isFetching: itemNftDataIsFetching } = useItemGetNftData(isItemDeployed ? item : undefined);
+
+  const isDirty = useMemo(() => JSON.stringify(initialContent) !== JSON.stringify({ colorSchema, flags }), [initialContent, flags, colorSchema]);
 
   const loadingMessage = useMemo(() => {
     if (latestVersionIsFetching) {
@@ -73,6 +78,7 @@ export const useItemData = (ownerAddress: Address): {
       const [, , , , contentCell] = itemNftData;
       const content = parseItemContent(contentCell);
       const { flags, colorSchema } = content;
+      setInitialContent(content);
       setColorSchema(colorSchema);
       setFlags(flags);
     }
@@ -86,15 +92,17 @@ export const useItemData = (ownerAddress: Address): {
   }, [isItemDeployed, isMyItem]);
 
   const save = useCallback(async () => {
-    if (readonly || !authority || !item || !client || !colorSchema || !flags) {
+    if (readonly || !authority || !item || !client || !colorSchema || !flags || !isDirty) {
       return;
     }
+    const newContent = { colorSchema, flags };
     if (isItemDeployed) {
-      await item.sendEditContent(sender, { colorSchema, flags });
+      await item.sendEditContent(sender, newContent);
     } else {
-      await authority.sendDeployItem(sender, ownerAddress, { colorSchema, flags });
+      await authority.sendDeployItem(sender, ownerAddress, newContent);
     }
-  }, [readonly, authority, client, colorSchema, flags, isItemDeployed, item, ownerAddress, sender]);
+    setInitialContent(newContent);
+  }, [readonly, authority, client, colorSchema, flags, isItemDeployed, item, ownerAddress, sender, isDirty]);
 
   return useMemo(() => ({
     countriesList,
@@ -104,6 +112,7 @@ export const useItemData = (ownerAddress: Address): {
     loadingMessage,
     setColorSchema,
     setFlags,
+    isDirty,
     save,
   }), [
     countriesList,
@@ -113,6 +122,7 @@ export const useItemData = (ownerAddress: Address): {
     loadingMessage,
     setColorSchema,
     setFlags,
+    isDirty,
     save,
   ]);
 }

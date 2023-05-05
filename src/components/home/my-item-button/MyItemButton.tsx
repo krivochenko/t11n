@@ -15,6 +15,6 @@ export const MyItemButton = (props: { myAddress: Address }) => {
   return isDeployed === undefined || itemAddressIsFetching
     ? <Button disabled block loading />
     : <Button block type={'primary'}>
-      <Link to={`/${props.myAddress}`}>{isDeployed ? 'Edit my NFT' : 'Generate my NFT'}</Link>
+      <Link to={`/${props.myAddress}`}>{isDeployed ? 'Edit my NFT' : 'Mint my NFT'}</Link>
     </Button>;
 };

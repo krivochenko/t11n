@@ -17,7 +17,7 @@ import { GiftButton } from './gift-button/GiftButton';
 const data = [
   {
     icon: <EnvironmentOutlined className="text-list-icon" />,
-    text: 'T11N is a service that allows you to generate a unique <a href="https://github.com/ton-blockchain/TEPs/blob/master/text/0062-nft-standard.md" target="_blank" rel="noopener noreferrer">NFT</a> displaying on a world map all the countries you have visited.'
+    text: 'T11N is a service that allows you to mint a unique <a href="https://github.com/ton-blockchain/TEPs/blob/master/text/0062-nft-standard.md" target="_blank" rel="noopener noreferrer">NFT</a> displaying on a world map all countries you have visited.'
   },
   {
     icon: <EditOutlined className="text-list-icon" />,
