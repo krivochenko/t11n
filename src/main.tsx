@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 import { ConfigProvider, theme } from 'antd';
 
-const manifestUrl = 'https://t11n.io/tonconnect-manifest.json';
+const manifestUrl = 'https://krivochenko.github.io/t11n/tonconnect-manifest.json';
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { refetchOnWindowFocus: false } },
