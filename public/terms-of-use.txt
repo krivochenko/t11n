@@ -1,0 +1,84 @@
+TERMS OF USE
+Date of original publication: 06.05.2023
+(“T11N”, “Company”, “us”, “we”, “our”) is a service operating on The Open Network blockchain (“TON”).
+Any natural person or legal entity which uses the T11N Platform/Services (as defined hereunder) may be referred to in these Terms as the “User”, “you”, “yours”.
+These terms of use (the “Terms”) make a contract entered into by and between you and T11N and govern access to our website https://t11n.io (the “Website”, the “Platform”), our software, content, special tools, technologies, products, or functionality of our Platform, including but not limited to, processes of creating, buying, selling, trading digital assets (the “Service”).
+T11N provides Services solely to ensure that Users have a technical solution to create digital assets and never participates in any deals, unless otherwise specified hereunder.
+PLEASE READ THESE TERMS CAREFULLY BEFORE ANY USE OF OUR PLATFORM OR SERVICES, AS THEY AFFECT YOUR LEGAL RIGHTS. BY ACCEPTING THESE TERMS ELECTRONICALLY (FOR EXAMPLE, BY CLICKING “I AGREE” OR SIMILAR WORDING), ACCESSING OUR PLATFORM, LOGGING IN WITH YOUR DIGITAL WALLET ON THE PLATFORM, OR BY ANY OTHER WAY OF INTERACTING WITH OUR PLATFORM OR SERVICES, YOU AGREE TO BE BOUND BY THESE TERMS AND ALL DOCUMENTS OR POLICIES MENTIONED HEREINAFTER. YOU CANNOT ACCEPT THESE TERMS IN PART. IF YOU DO NOT AGREE WITH ALL OR A PART OF THESE TERMS, YOU MUST NOT ACCESS OUR PLATFORM OR SERVICES.
+We reserve the right to update these Terms at any time and without any prior notice at our sole discretion. By continuing to use our platform or Services (in whatever form mentioned in these Terms), you agree to the revised Terms on the same conditions as you accepted them at the beginning.
+1. DESCRIPTION OF SERVICE
+The T11N Service allows Users to create non-fungible tokens (“NFT”) through smart contracts.
+T11N cannot be considered a party to any contract entered into by Users. Relationships between Users are subject to separate agreements.
+You cannot address any claims against us regarding Products created on the T11N Platform. We accept no responsibility for the legitimacy, authenticity, or other characteristics of any Product created on our Platform. All transactions and operations are made by Users at their own risk.
+You agree that T11N has no obligation to become involved in any proceedings (according to any laws and court proceedings as well) that may occur between Users of the Platform or between Users and any third parties (including government structures).
+T11N does not accept responsibility for the availability of any content or assets represented on the Platform.
+T11N will not be liable for any failure to support work and the availability of any of its Services or Platform, as well as for any loss or damage resulting from such failure.
+2. WHO MAY USE OUR PLATFORM AND SERVICES
+You may use our Services only if you can form a binding contract with T11N.
+You are not allowed to use or to have access to our Services/Platform if you are under the age of 18 or the legal age established under applicable laws for entering into binding contracts.
+Users are solely responsible for complying with all laws applicable to them.
+You warrant that you are not located in any restricted jurisdiction that is subject to any applicable sanctions preventing T11N from providing you with access to the Services. Your location is determined by your physical location at the time of accessing our Services/Platform.
+3. ACCESSING THE PLATFORM AND SERVICES
+You may start to use our Platform and Services with your existing TON Wallet, Tonkeeper, or any other allowed wallet (the “Wallet”) by connecting them via the TON Wallet browser extension to our Website.
+When signing in with your Wallet on the Platform, please keep in mind that this occurs with third-party services, and we cannot guarantee your security or our liability for any damage or loss that may occur as a result of such interaction.
+We have no access to your Wallet or its contents (crypto, NFTs, etc.).
+By using our Services, you guarantee that you fully accept and understand the following rules:
+You will not share access to the Wallet which was connected to the Platform or any related data (especially, if it may lead to any transactions) with any third party, unless expressly permitted by us;
+You are fully responsible for all activities involving your Wallet on our Platform, even if they are carried out by third parties.
+To prevent any additional risks, avoid using any technical options that allow you to save your password/recovery phrases or may lead to unauthorized access to your Wallet (for example, auto-filling in browser, saved password, etc.). You must log out after any session on our Platform from any device. If you fail to comply with these requirements, T11N will be released from liability regardless of what other conditions appear in this case.
+You are fully responsible for the security of your Wallet that was connected to the Platform, including any unauthorized transactions;
+You are aware that T11N charges fees for its Services. Every transaction you make on the Platform will automatically include all applicable fees/royalties. You will not be allowed to proceed with any transactions unless you are able to cover applicable fees;
+You have read our Safety Disclaimer here.
+In order to be able to create Products on the Platform, you may need to allow T11N to authorize funds in advance for certain types of transactions.
+4. MINTING
+To be able to Mint NFTs with T11N, first User should select visited countries and preferred color schema, submit a request for minting, and pay the necessary fees. If everything is done correctly, the NFT will be minted.
+We cannot guarantee the successful completion of minting processes or provide any time frame for completion.
+T11N charges fees for the minting of NFTs on the T11N Platform only to cover TON and NFTs operating costs. T11N does not retain any of these fees.
+5. TERMS OF SALE
+T11N has no responsibility for any Products created by Users on the Platform. We have no legal or any other means of verifying and ensuring the legality, authenticity, or any other qualities of any Product displayed on the Platform.
+All transactions on T11N are carried out with the use of smart contracts based on the TON blockchain.
+You agree with and understand all the risks associated with blockchain operations, and you entirely realize that we have no control over any transactions on the blockchain. All transactions made by Users are carried out at their sole discretion and at their own risk.
+By purchasing an NFT, a User does not receive any underlying intellectual property rights to such a piece of content itself or any intellectual property rights therein. The User does not have any legal ownership, rights, or title to any copyrights, trademarks, or other intellectual property rights associated with such a piece of content.
+After purchasing an NFT, the information regarding the transfer of ownership will be saved on the blockchain, and you will be able to view this data directly on the T11N Website in the relevant sections.
+By proceeding with any transaction, the User agrees to pay all applicable fees.
+All transactions are final. We do not provide refunds for any Products or for any fees and royalties charged under any circumstances.
+We reserve the right to cancel any transaction if you have an insufficient amount of funds in a linked Wallet to complete such a transaction.
+T11N never participates in the transfer of Products and cannot be considered a Party to any agreement between a Buyer and a Seller.
+T11N accepts no responsibility for any loss or damage that might be caused by any errors or failure of Platform/Services.
+6. FEES
+By carrying out any transactions with T11N, you agree to pay all applicable fees and authorize T11N to automatically deduct or include them in payments.
+T11N charges You with:
+Creation fee
+Transaction fee (the “Gas Fee”)/ Network fee for making any transaction or interacting with a smart contract on the blockchain:
+Due to the nature of TON’s operating processes, it is impossible to show the exact amount of all applicable fees before you complete a transaction.
+You always need to have a fixed amount of TON settled by T11N in your Wallet to be able to cover a gas fee. Once the transaction is complete, we will refund you all the unused amount.
+Any information regarding fees in this paragraph is approximate, cannot be considered as an offer and may vary depending on circumstances.
+T11N reserves the right to change, at any time and at our sole discretion, the amount of fees and their amount.
+7. PRIVACY POLICY
+Before getting started, you should study our Privacy policy here. If you begin to use our Platform or Services, you are deemed to have accepted it as well.
+8. USER'S LICENSE
+Subject to these Terms, we grant you a limited, personal, non-sublicensable, non-exclusive, non-transferable and revocable license to access our Services. Using our Services does not give you rights to any intellectual property that forms a part of our Services or the content you access.
+9. COPYRIGHT NOTICE
+Unless otherwise stated by us, all content displayed on our Platform, including but not limited to, data, information, software, the T11N name, logo, and trademarks, is intellectual property of our Company and any use of it, fully or partly, without written permission of T11N is strictly prohibited.
+Except as expressly authorized by us, you agree not to copy, frame, modify, scrape, rent, lease, loan, sell, distribute or create derivative works based on the Platform or the Service content, in whole or in part.
+You cannot refer to the T11N (website, data, etc.) in order to make false representation that you are in any way related to the Company.
+10. OUR LICENSE AND OUR AFFILIATES
+You grant T11N and our Affiliates a perpetual, non-exclusive, worldwide, sublicensable, free, transferable, license to display, distribute, and otherwise use your content for the following purposes:
+Use any information you upload on our Platform or provide to us directly or indirectly for marketing, research, or any other purposes.
+11. THIRD PARTY RESOURCES
+The Platform may include links to external resources over which we have no control. Interacting with such resources is at the User's own risk and we do not accept any responsibility for any data, services, content or its availability, as well as for any damage or loss which may occur as a result of such interaction.
+12. TERMINATION
+T11N reserves the right, at our sole discretion, to suspend/block/freeze/cancel access to our Platform and/or Services at any time without any notice or further explanation for any reason or without one. You agree that T11N will have no liability for any loss or damage that might occur because of these actions.
+13. DISCLAIMERS
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICES AND ALL INCLUDED CONTENT ARE PROVIDED ON AN "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESSED OR IMPLIED. THE T11N FURTHER DISCLAIM ANY AND ALL LIABILITY RELATED TO YOUR ACCESS OR USE OF THE SERVICES OR ANY RELATED CONTENT. YOU ACKNOWLEDGE AND AGREE THAT ANY ACCESS TO OR USE OF OUR SERVICES/PLATFORM IS AT YOUR OWN RISK.
+WE WILL NOT BE RESPONSIBLE OR LIABLE TO YOU FOR ANY LOSS AND TAKE NO RESPONSIBILITY FOR, AND WILL NOT BE LIABLE TO YOU FOR, ANY USE OF NFTS AND DIGITAL CONTENT, CONTENT, AND/OR CONTENT LINKED TO OR ASSOCIATED WITH NFTS, INCLUDING BUT NOT LIMITED TO ANY LOSSES, DAMAGES, OR CLAIMS ARISING FROM: (A) USER ERROR, INCORRECTLY CONSTRUCTED TRANSACTIONS, OR MISTYPED ADDRESSES; (B) SERVER FAILURE OR DATA LOSS; (C) UNAUTHORIZED ACCESS OR USE; (D) ANY UNAUTHORIZED THIRD-PARTY ACTIVITIES, INCLUDING WITHOUT LIMITATION THE USE OF VIRUSES, PHISHING, BRUTEFORCEMENT OR OTHER MEANS OF ATTACK AGAINST THE SERVICE OR NFTS.
+T11N is not responsible for sustained losses due to vulnerability or any kind of failure, abnormal behavior of software (e.g., wallet, smart contract), blockchains, or any other features. T11N is not responsible for sustained losses due to late reports by developers or representatives (or no report at all) of any issues with the blockchain supporting NFTs.
+You acknowledge that information stored or transferred through our Services may become irretrievably lost, corrupted, or temporarily unavailable due to a variety of causes, including but not limited to software failures, protocol changes by third-party providers, internet outages, force majeure events or other disasters, including third-party DDOS attacks, scheduled or unscheduled maintenance, or other causes either within or outside our control.
+14. LIMITATION OF LIABILITY
+TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT T11N WILL BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFIT OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES ARISING FROM THIS AGREEMENT, THE WEBSITE, PRODUCTS OR THIRD-PARTY SITES AND PRODUCTS, OR FOR ANY DAMAGES RELATED TO LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, OR LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT, OR OTHERWISE, EVEN IF FORESEEABLE AND EVEN IF T11N HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. ACCESS TO, AND USE OF, THE WEBSITE, PRODUCTS OR THIRD-PARTY SITES AND PRODUCTS ARE AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA RESULTING THEREFROM.
+NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, IN NO EVENT SHALL THE MAXIMUM AGGREGATE LIABILITY OF THE T11N ARISING OUT OF OR IN ANY WAY RELATED TO THIS AGREEMENT, THE ACCESS TO AND USE OF THE WEBSITE, CONTENT, NFTS, OR ANY PRODUCTS OR SERVICES PURCHASED ON THE SITE EXCEED THE GREATER OF (A)US$100 OR (B)THE AMOUNT YOU HAVE PAID TO T11N FOR THE SERVICES IN THE LAST THREE MONTHS OUT OF WHICH LIABILITY AROSE.
+15. INDEMNIFICATION
+By accessing or using our Platform or Services, you hereby discharge to the maximum extent permitted by applicable law, acquit, and otherwise release the indemnified parties, from any and all allegations, counts, charges, debts, causes of action, claims and losses, relating in any way to the use of, or activities relating to the use of the Website, Services, Platform including but not limited to, claims relating to the following: negligence, gross negligence, intentional interference with contract or advantageous business relationship, defamation, privacy, publicity, misrepresentation, any financial loss not due to the fault of the Website and Platform, false identities, fraudulent acts by others, invasion of privacy, release of personal information, failed transactions, purchases or functionality of the Website, unavailability of the Website, its functions and/or Services and any other technical failure that may result in inaccessibility to the Website, the T11N Platform or Services, or any claim based on vicarious liability for torts committed by users encountered or transacted with through the Website and Services, including but not limited to, fraud, computer hacking, theft or misuse of personal information, assault, battery, stalking, cheating, perjury, manslaughter, or murder.
+The above list is intended to be illustrative only and not exhaustive of the types or categories of claims released by you. This release is intended by the parties to be interpreted broadly in favor of the Company, and thus any ambiguity shall be interpreted in a manner providing release of the broadest claims. This release is intended to be a full release of claims, and the parties acknowledge the legally binding nature of this provision, and the nature of the rights given up in connection therewith.
+16. SEVERABILITY
+If any term, clause, or provision of these Terms is held invalid or unenforceable, then that term, clause, or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause, or provision, or any other term, clause, or provision of these Terms.
