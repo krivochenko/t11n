@@ -1,0 +1,72 @@
+T11N PRIVACY POLICY
+Date of original publication: 06.05.2023
+1. INTRODUCTION
+Scope of Application of the Privacy Policy. This Privacy Policy, together with our Terms and any additional provisions that may be incorporated by reference into the Terms, applies to your use of the Platform, official desktop, and our Website and any of the Services accessible through the Platform and on the Website.
+Contents of the Privacy Policy. This Privacy Policy sets out the basis on which any Personal Data we collect from you, or that you provide to us, will be processed by us.
+Restriction on Collecting Personal Data from Children. The Platform, Website, and Services are not directed at children under the age of majority, as defined by applicable law in your country of residence. We do not knowingly collect information, including Personal Data, from children or other individuals who are not legally permitted to use our Platform, Website and Services. If we obtain actual knowledge that we have collected Personal Data from a child under the age of majority, we will promptly delete it, unless we are legally obligated to retain such data. Contact us if you believe that we have mistakenly or unintentionally collected information from a child under the age of majority.
+Please read the following carefully to understand our practices regarding your Personal Data and how we will treat it.
+IF YOU DO NOT AGREE WITH THIS PRIVACY POLICY IN GENERAL OR ANY PART OF IT, YOU SHOULD NOT USE THE SOFTWARE, THE WEBSITE AND THE SERVICES.
+2. WHAT DATA, FOR WHAT PURPOSES, BASED ON WHAT GROUNDS AND HOW LONG WE PROCESS
+a. When you use the Platform, the Website and the Services.
+When you use the Platform and the Services, access the Website, we will collect the following Personal Data:
+Information associated with the transaction, such as the amount sent or requested;
+E-wallet number and wallet type.
+This information is necessary for us in order to fulfill our contract with you.
+We collect this information for the following purposes:
+Fulfill our contractual obligations;
+Payment of fees.
+b. Accessing the Platform.
+When you log in to the Platform or Website, we will collect the following Personal Data:
+Information about the device you use to access your Account, including the hardware model, mobile device ID, operating system and version, and unique device identifiers, but this information is anonymized and not tied to any particular person.
+Technical information about your use of the Services, such as the type and version of browser you use, the last time you accessed your Account, and the Internet Protocol (IP) address used to access your Account.
+Location data includes your current location as disclosed by GPS technology;
+Date/time stamps, clickstream data;
+Information on page response time, loading errors, duration of visits to certain pages, information about the relationship of pages (for example, scrolling, clicks and mouse hovering), web beacons and navigation methods used on the Website;
+Cookies;
+Analytics: Google Analytics;
+Public blockchain information;
+Data collected from third-party companies that provide their products in conjunction with our service.
+This information is necessary for our legitimate interests (or those of a third party), and your interests and fundamental rights do not override those interests.
+We collect this information for the following purposes:
+Improve the Platform, the Website and the Services;
+Provide personalized Services (also knowns as interest-based marketing);
+To tailor the marketing content and certain Services, Platform or Website experiences to better match your interests and those of other third-party websites.
+We will only send you direct marketing communications by email or text if we have your consent. You have the right to withdraw that consent at any time by contacting us.
+c. We will process your Personal Data legally and fairly, and will not use it for purposes other than those for which you have been informed, including selling it individually or in aggregate for commercial use.
+d. We retain Personal Data in an identifiable format for the least amount of time in order to fulfill our legal or regulatory obligations and for our business purposes. We may retain Personal Data for longer periods than required by law if it is in our legitimate business interests and is not directly prohibited by the applicable law. When Personal Data is no longer required for the purpose for which it was collected, we will remove any details that identify you or we will securely destroy the records, where permissible. However, we may need to maintain records for an extended period of time (after you cease using a particular Service) as mandated by any applicable regulation. We will continue to use and disclose such Personal Data in accordance with this Privacy Policy.
+3. COOKIES
+We may use "cookies" to record information. When you visit the Website, we invite you to read and accept our cookie policy. By accepting the banner and continuing to use the Website, you agree to the placement of cookies in your browser in accordance with this Policy. A cookie is a small text file that is stored on your computer to help us make your visit to our Website more user-friendly. Cookies provide us with information about your use of the Website that can help us improve the site and your experience with it. We will process Personal Data collected through cookies in accordance with this Privacy Policy. If you have your browser set to warn you before accepting cookies, each cookie should come with a warning message. You can refuse cookies by turning them off in your browser. However, you should be aware that, like most other websites, ours may not function properly if cookies are disabled.
+We use the following Cookies:
+a) Strictly necessary Cookies. These are Cookies that are required for the operation of our Website. They include, for example, Cookies that enable you to log into secure areas of our Website.
+b) Analytical/performance Cookies. They allow us to recognize and count the number of visitors and to see how visitors navigate our Website while using it. This helps us to improve the way our Website works, for example, by ensuring that Users find what they are looking for easily.
+c) Functionality Cookies. These are used to identify you when you return to our Website. This enables us to personalize our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
+d) Targeting Cookies. These Cookies track your visit to our Website, the pages you have visited and the links you have followed. We will use this information to make our Website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose.
+4. DATA COLLECTION
+Information may come from:
+Directly from you (via our communication or forms that you filled);
+From our website's cookies stored in your browser;
+From other sources, including third parties and publicly available sources. We may combine that with information we collect through our Services.
+5. DISCLOSURES OF YOUR PERSONAL DATA
+Disclosure of Your Personal Data. We disclose your Personal Data as described below and as described elsewhere in this Privacy Policy.
+a) Third Party Service Providers. We may share your Personal Data with third party service providers to: provide technical infrastructure services; conduct quality assurance testing; analyze how our Service is used; prevent, detect, and respond to unauthorized activities; provide technical and customer support; and/or to provide other support to us and to the Service.
+b) Affiliates. We may share some or all of your Personal Data with any subsidiaries, joint ventures, or other companies under our common control (collectively, "Affiliates"), in which case we will require our Affiliates to follow this Privacy Policy.
+c) Corporate Restructuring. We may share some or all of your Personal Data in connection with or during negotiation of any merger, financing, acquisition, or dissolution transaction or proceeding involving the sale, transfer, divestiture, or disclosure of all or a portion of our business or assets. In the event of an insolvency, bankruptcy, or receivership, Personal Data may also be transferred as a business asset. If another company acquires our company, business, or assets, that company will own the Personal Data we collected and will assume the rights and obligations regarding your Personal Data as described in this Privacy Policy.
+d) Legal Rights. Regardless of any choices you make regarding your Personal Data (as described below), T11N may disclose Personal Data if it believes in good faith that such disclosure is necessary: (a) as part of any legal investigation; (b) to comply with relevant laws or to respond to subpoenas, warrants, or other legal process served on T11N; (c) to protect or defend the rights or property of T11N or users of the Service; and/or (d) to investigate or assist in preventing any violation or potential violation of the law, this Privacy Policy, or our Terms of Service.
+e) Other Disclosures. We may also disclose your Personal Data in the following circumstances: to fulfill the purpose for which you provide it; for any other purpose disclosed by us when you provide it; or with your consent.
+6. LINKS TO OTHER WEBSITES
+The Platform and the Website may contain links to other third-party websites or applications. Once you click on such a link and leave the Platform/Website or are redirected to a third-party website or application, you are no longer governed by this Policy. Any information you provide on those sites is subject to that third party’s privacy policy. We are not responsible for the privacy and security practices and policies of those third-party sites or applications.
+7. THIRD PARTY WALLETS
+To use our Platform, you must use a third-party wallet that allows you to engage in transactions on public blockchains. Your interactions with any third-party wallet provider are governed by the applicable terms of service and privacy policy of that third party.
+8. CHANGES TO THE PRIVACY POLICY
+This Policy is subject to change at any time, so check back often. We will update the "Last Revised" date at the beginning of this document to let you know that changes have been made. If we make a significant change in how we use or share your Personal Data, you will be notified when you next access the Software, the Website and the Services. The new policy may be displayed on-screen, and you may be required to read and accept the changes to continue your use of the Software, the Website and the Services. Your continued use of the Services constitutes your acceptance of any changes or revisions to this Privacy Policy.
+9. PERSONAL DATA PROTECTION
+We care about the security of your information and use physical, administrative, and technological safeguards to preserve the integrity and security of information collected through our Platform. However, no security system is impenetrable, and we cannot guarantee the security of our systems. In the event that any information under our custody and control is compromised as a result of a breach of security, we will take steps to investigate and remediate the situation, and we will notify those individuals whose information may have been compromised in accordance with applicable laws and regulations.
+You are responsible for the security of your digital wallet, and we urge you to take steps to ensure it is and remains secure. If you discover an issue related to your wallet, please contact your wallet provider.
+You are responsible for the security of Personal Data through the creation of a strong password, its safety and inaccessibility to third parties. If you suspect a security breach of your data, you must inform us immediately.
+10. DATA ACCESS AND CONTROL
+You can view, access, edit, or delete your Personal Data for certain aspects of the Service via your Settings page. You may also have certain additional rights:
+If you are a user in the European Economic Area or United Kingdom, you have certain rights under the respective European and UK General Data Protection Regulations (“GDPR”). These include the rights to: request access to and obtain a copy of your personal data; request rectification or erasure of your personal data; object to or limit the processing of your personal data; and request portability of your personal data. Furthermore, if we have collected and processed your personal data with your consent, you have the right to withdraw your consent at any time.
+If you wish to exercise your rights under the GDPR or any other applicable data protection or privacy laws, please contact us at the address provided below, specifying your request and referencing the applicable law. We may ask you to verify your identity or provide additional information about your request. Any such request will be considered and acted upon in accordance with applicable law. We will not discriminate against you for exercising any of these rights.
+Notwithstanding the above, we cannot edit or delete any information that is stored on a blockchain, for example, the TON blockchain, as we do not have custody or control over any blockchain. The information stored on the blockchain may include purchases, sales, and transfers related to your blockchain address and NFTs held at that address.
+11. QUESTIONS, PROBLEMS OR COMPLAINTS
+Contact T11N: support@t11n.io
