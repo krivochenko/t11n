@@ -1,5 +1,6 @@
 {
   "name": "ton-starter-twa-vite",
+  "homepage": "https://krivochenko.github.io/t11n/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
