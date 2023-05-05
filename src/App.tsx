@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       { path: ':address', element: <MapPage /> },
     ],
   },
-]);
+], { basename: window.location.href.indexOf('krivochenko.github.io/t11n') !== -1 ? '/t11n' : '/' });
 
 function App() {
   return <AntdApp>
