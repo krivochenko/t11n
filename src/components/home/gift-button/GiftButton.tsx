@@ -1,9 +1,9 @@
 import { Button, Input, Modal } from 'antd';
 import React, { ChangeEvent, useCallback, useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Address } from 'ton-core';
+import { SetOwnerAddressFn } from '../Home';
 
-export const GiftButton = () => {
+export const GiftButton = (props: { setOwnerAddress: SetOwnerAddressFn }) => {
   const [address, setAddress] = useState('');
 
   const isValidAddress = useMemo(() => {
@@ -19,8 +19,7 @@ export const GiftButton = () => {
   const openModal = useCallback(() => setModalIsOpened(true), []);
   const closeModal = useCallback(() => setModalIsOpened(false), []);
 
-  const navigate = useNavigate();
-  const goToEditor = useCallback(() => navigate(`/${address}`), [navigate, address]);
+  const goToEditor = useCallback(() => address ? props.setOwnerAddress(Address.parse(address)) : null, [props.setOwnerAddress, address]);
 
   return <>
     <Modal centered open={modalIsOpened} onCancel={closeModal} onOk={goToEditor} okButtonProps={{ disabled: !isValidAddress }}>

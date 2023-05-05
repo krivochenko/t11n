@@ -1,7 +1,7 @@
 import { useTonWallet } from '@tonconnect/ui-react';
 import { Button, Col, List, Row } from 'antd';
 import { Address } from 'ton-core';
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import {
   CodeOutlined,
   DeploymentUnitOutlined,
@@ -41,9 +41,12 @@ const data = [
   },
 ];
 
-export const Home = () => {
+export type SetOwnerAddressFn = (ownerAddress: Address) => void;
+
+export const Home = (props: { setOwnerAddress: SetOwnerAddressFn }) => {
   const wallet = useTonWallet();
   const myAddress = useMemo(() => wallet ? Address.parse(wallet.account.address) : null, [wallet]);
+  const setMyAddress = useCallback(() => myAddress ? props.setOwnerAddress(myAddress) : undefined, [myAddress])
 
   return <Row gutter={[0, 20]}>
     <Col span={24}>
@@ -58,13 +61,13 @@ export const Home = () => {
       />
     </Col>
     {
-      myAddress
+      myAddress && setMyAddress
         ? <>
           <Col span={24}>
-            <MyItemButton myAddress={myAddress} />
+            <MyItemButton myAddress={myAddress} click={setMyAddress} />
           </Col>
           <Col span={24}>
-            <GiftButton />
+            <GiftButton setOwnerAddress={props.setOwnerAddress} />
           </Col>
         </>
         : <Col span={24}>
