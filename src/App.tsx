@@ -8,6 +8,7 @@ import { MapPage } from './pages/MapPage';
 
 const router = createHashRouter([
   {
+    path: '',
     element: <Layout className="content">
       <Header/>
       <Outlet/>
@@ -17,7 +18,7 @@ const router = createHashRouter([
       { path: ':address', element: <MapPage /> },
     ],
   },
-], { basename: window.location.href.indexOf('krivochenko.github.io/t11n') !== -1 ? 't11n' : '/' });
+], { basename: window.location.href.indexOf('krivochenko.github.io/t11n') !== -1 ? '/t11n' : '/' });
 
 function App() {
   return <AntdApp>
