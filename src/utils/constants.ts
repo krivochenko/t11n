@@ -1,5 +1,5 @@
 export const AUTHORITY_ADDRESS_MAINNET = '';
-export const AUTHORITY_ADDRESS_TESTNET = 'kQAUFOQNsYqlOu4E8WoFf5u7X8odH929E8tW81rOHalz4WB7';
+export const AUTHORITY_ADDRESS_TESTNET = 'kQDxdHcRDbxuTsHIHMkkmKr2HF6zDpeymG8ZsfMy1GQa8NC9';
 
 export const DEFAULT_COLOR_SCHEMA = {
   backgroundColor: { r: 29, g:  39, b: 51, a: 1 },
