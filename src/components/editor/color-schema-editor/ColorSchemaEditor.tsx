@@ -1,4 +1,4 @@
-import { Button, Popover, Space, Typography } from 'antd';
+import { Button, Col, Popover, Row, Typography } from 'antd';
 import React, { useCallback, useMemo } from 'react';
 import { ColorResult, SketchPicker } from 'react-color';
 import './ColorSchemaEditor.scss';
@@ -14,7 +14,8 @@ const ColorSelector = (props: { label: string, value: Color, onChange: (value: C
   const style = useMemo(() => ({ backgroundColor: `rgba(${value.r},${value.g},${value.b},${value.a })`, color: '#ffffff' }), [value]);
 
   return <Popover trigger={'click'} content={<SketchPicker onChange={setValue} color={value}/>} title={label}>
-    <Button style={style} type="dashed" size={'small'}>{label}</Button>
+    <Typography.Text type={'secondary'}>{label}</Typography.Text>
+    <Button style={style} type="dashed" size={'small'} block/>
   </Popover>;
 };
 
@@ -27,11 +28,19 @@ export const ColorSchemaEditor = (props: { colorSchema: ColorSchema, onChangeCol
 
   return <div className="color-schema-editor">
     <Typography.Title level={5}>Set color schema: </Typography.Title>
-    <Space className="color-schema-editor-buttons">
-      <ColorSelector label={'Background'} value={colorSchema.backgroundColor} onChange={setBackgroundColor}/>
-      <ColorSelector label={'Borders'} value={colorSchema.bordersColor} onChange={setBordersColor}/>
-      <ColorSelector label={'Visited'} value={colorSchema.visitedColor} onChange={setVisitedColor}/>
-      <ColorSelector label={'Unvisited'} value={colorSchema.unvisitedColor} onChange={setUnvisitedColor}/>
-    </Space>
+    <Row className="color-schema-editor-buttons" gutter={10}>
+      <Col span={6}>
+        <ColorSelector label={'Background'} value={colorSchema.backgroundColor} onChange={setBackgroundColor}/>
+      </Col>
+      <Col span={6}>
+        <ColorSelector label={'Borders'} value={colorSchema.bordersColor} onChange={setBordersColor}/>
+      </Col>
+      <Col span={6}>
+        <ColorSelector label={'Visited'} value={colorSchema.visitedColor} onChange={setVisitedColor}/>
+      </Col>
+      <Col span={6}>
+        <ColorSelector label={'Unvisited'} value={colorSchema.unvisitedColor} onChange={setUnvisitedColor}/>
+      </Col>
+    </Row>
   </div>
 };
