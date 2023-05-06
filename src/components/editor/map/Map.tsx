@@ -55,7 +55,7 @@ export const Map = (props: { readonly: boolean, colorSchema: ColorSchema, flags:
   const networkLabel = useMemo(() => network ? (network === CHAIN.MAINNET ? 'mainnet' : 'testnet') : 'N/A', [network]);
 
   return <div>
-    <Typography.Title level={5}>Select countries  : </Typography.Title>
+    {!readonly ? <Typography.Title level={5}>Tap countries on the map...</Typography.Title> : null}
 
     <Badge.Ribbon text={networkLabel} color="#46aff5">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" className="map">
@@ -69,17 +69,20 @@ export const Map = (props: { readonly: boolean, colorSchema: ColorSchema, flags:
           }
         </g>
       </svg>
-      {!readonly && <Select
-        mode="multiple"
-        allowClear
-        className="countries-select"
-        placeholder="Tap countries on map or start type it name here"
-        value={selectedIndexes}
-        filterOption={false}
-        onChange={setSelectedIndexes}
-        options={selectOptions}
-        onSearch={setSearch}
-      />}
+      {!readonly && <>
+          <Typography.Title level={5}>...or select them from the list</Typography.Title>
+          <Select
+              mode="multiple"
+              allowClear
+              className="countries-select"
+              placeholder="Tap countries on map or start type it name here"
+              value={selectedIndexes}
+              filterOption={false}
+              onChange={setSelectedIndexes}
+              options={selectOptions}
+              onSearch={setSearch}
+          />
+      </>}
     </Badge.Ribbon>
   </div>
 }
