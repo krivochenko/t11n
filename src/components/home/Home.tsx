@@ -33,7 +33,7 @@ const data = [
   },
   {
     icon: <CodeOutlined className="text-list-icon" />,
-    text: 'The only centralized entity of the project is this website, but its source code is open and can be run by anyone on their computer.',
+    text: 'The only centralized entity of the project is this website, but its source code is <a href="https://github.com/krivochenko/t11n" target="_blank" rel="noopener noreferrer">open</a> and can be run by anyone on their computer.',
   },
   {
     icon: <DollarOutlined className="text-list-icon" />,
