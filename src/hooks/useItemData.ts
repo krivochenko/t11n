@@ -1,4 +1,4 @@
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { useTonWallet } from '@tonconnect/ui-react';
 import { useAuthority } from './contracts/useAuthority';
 import { useAuthorityGetLatestVersion } from './contracts/useAuthorityGetLatestVersion';

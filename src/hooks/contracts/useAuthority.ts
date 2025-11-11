@@ -1,6 +1,6 @@
 import { useTonClient } from '../useTonClient';
 import { useTonConnect } from '../useTonConnect';
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { CHAIN } from '@tonconnect/protocol';
 import { Authority } from '../../contracts/authority';
 import { useMemo } from 'react';

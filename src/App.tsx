@@ -4,7 +4,7 @@ import { App as AntdApp, Empty, Layout } from 'antd';
 import { Header } from './components/header/Header';
 import React, { useCallback, useEffect, useState } from 'react';
 import { Editor } from './components/editor/Editor';
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { Home } from './components/home/Home';
 
 function App() {

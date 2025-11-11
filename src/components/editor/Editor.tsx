@@ -1,7 +1,7 @@
 import React from 'react';
 import { ColorSchemaEditor } from './color-schema-editor/ColorSchemaEditor';
 import { Map } from './map/Map';
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { Button, Col, Empty, Row, Spin } from 'antd';
 import { useItemData } from '../../hooks/useItemData';
 import { useTonWallet } from '@tonconnect/ui-react';

@@ -1,4 +1,4 @@
-import { beginCell, Cell, Dictionary, Slice } from 'ton-core';
+import { beginCell, Cell, Dictionary, Slice } from '@ton/core';
 import { CountriesList, ItemContent } from './types';
 
 const parseSnake = (slice: Slice, encoding: BufferEncoding): string => {

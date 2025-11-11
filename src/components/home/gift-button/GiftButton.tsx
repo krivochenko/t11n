@@ -1,6 +1,6 @@
 import { Button, Input, Modal } from 'antd';
 import React, { ChangeEvent, useCallback, useMemo, useState } from 'react';
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { SetOwnerAddressFn } from '../Home';
 
 export const GiftButton = (props: { setOwnerAddress: SetOwnerAddressFn }) => {
@@ -19,7 +19,7 @@ export const GiftButton = (props: { setOwnerAddress: SetOwnerAddressFn }) => {
   const openModal = useCallback(() => setModalIsOpened(true), []);
   const closeModal = useCallback(() => setModalIsOpened(false), []);
 
-  const goToEditor = useCallback(() => address ? props.setOwnerAddress(Address.parse(address)) : null, [props.setOwnerAddress, address]);
+  const goToEditor = useCallback(() => address ? props.setOwnerAddress(Address.parse(address)) : null, [props, address]);
 
   return <>
     <Modal centered open={modalIsOpened} onCancel={closeModal} onOk={goToEditor} okButtonProps={{ disabled: !isValidAddress }}>

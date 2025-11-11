@@ -1,5 +1,5 @@
 import { useTonClient } from '../useTonClient';
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import { useMemo } from 'react';
 import { Item } from '../../contracts/item';
 

@@ -1,4 +1,4 @@
-import { Address } from 'ton-core';
+import { Address } from '@ton/core';
 import React from 'react';
 import { useContractIsDeployed } from '../../../hooks/useContractIsDeployed';
 import { Button } from 'antd';
